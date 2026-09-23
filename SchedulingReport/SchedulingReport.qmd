@@ -430,7 +430,7 @@ for (r in 1:length(reports)) {
 
 </details>
 
-# Plan Elements (FY26)
+# Plan Elements (FY27)
 
 The following tables list the roles for all PEP staff by performance plan element.
 
@@ -511,7 +511,7 @@ cat(":::")
 
 </details>
 
-# Prioritized Elements (FY26)
+# Prioritized Elements (FY27)
 
 The following tables list the roles associated with Mission Critical or Top Priority projects for all PEP staff by performance plan element.
 
