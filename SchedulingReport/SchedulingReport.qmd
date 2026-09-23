@@ -17,10 +17,10 @@ library(stringr)
 
 # Connect to DB and get starting data
 con <- RPostgreSQL::dbConnect(PostgreSQL(), 
-                              dbname = Sys.getenv("pep_db"), 
-                              host = Sys.getenv("pep_ip"), 
-                              user = Sys.getenv("pep_admin"), 
-                              password =  Sys.getenv("admin_pw"))
+                              dbname = Sys.getenv("mml_pep_db"), 
+                              host = Sys.getenv("mml_pep_ip"), 
+                              user = Sys.getenv("mml_pep_user"), 
+                              password =  Sys.getenv("mml_pep_user_pw"))
 
 priorities <- RPostgreSQL::dbGetQuery(con, "SELECT * FROM administrative.qry_project_priorities") 
 
