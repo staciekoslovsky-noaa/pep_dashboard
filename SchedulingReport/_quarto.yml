@@ -1,0 +1,12 @@
+project:
+  type: website
+  output-dir: docs
+  
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 2
+    page-layout: article
+    smooth-scroll: true
+    anchor-sections: true
